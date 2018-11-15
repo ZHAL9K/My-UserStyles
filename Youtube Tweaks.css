@@ -1,0 +1,5 @@
+/* Adds red background to currently playing item in playlist for better visibility */
+ytd-playlist-panel-video-renderer[selected] #index.ytd-playlist-panel-video-renderer {
+    /*background-color: #a56;*/
+    background-color: #953d3d;
+}
