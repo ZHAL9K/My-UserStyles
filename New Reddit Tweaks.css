@@ -1,0 +1,43 @@
+/* Sidebar */
+.bpTLeo {
+    display: block;
+}
+
+/* Subreddit name in posts */
+.daeHTp {
+    color: #a56;
+}
+
+/* Subscribe button */
+.dqoBoo {
+    border: 1px solid rgb(26, 26, 27);
+    background-color: rgb(26, 26, 27);
+    color: rgb(129, 131, 132);
+}
+/* Subscribed button */
+.eqJjgs {
+    border: 1px solid rgb(26, 26, 27);
+    background-color: rgb(26, 26, 27);
+    color: rgb(129, 131, 132);
+}
+
+/* Create Post button */
+.gyqAAZ {
+    border: 1px solid rgb(26, 26, 27);
+    background-color: rgb(26, 26, 27);
+    color: rgb(129, 131, 132);
+}
+
+/* Create Community button */
+.jKSVhd {
+    border: 1px solid rgb(26, 26, 27);
+    background-color: rgb(26, 26, 27);
+    color: rgb(129, 131, 132);
+}
+
+/* Trending Communities & "Home" sideboxes */
+
+/* Subreddit name & sub count */
+.dBgWbv, .gCONzn {
+    color: rgb(129, 131, 132);
+}
