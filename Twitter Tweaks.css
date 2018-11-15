@@ -1,0 +1,54 @@
+/*
+ Makes everything rounded rectangles, instead of circles and capsules
+*/
+
+.ProfileAvatar-image,
+.ProfileListItem-avatar,
+.ProfileCardMini-avatarImage,
+.ProfileCard-avatarImage,
+.ProfileCard-avatarLink,
+.ProfileAvatarEditing,
+.ProfileAvatarEditing-button,
+.ProfileAvatarEditing-overlay,
+.DashboardProfileCard-avatarImage,
+.avatar,
+.Avatar,
+.DMAvatar,
+.nav .session .dropdown-toggle,
+.EdgeButton,
+.EdgeButton.EdgeButton--icon,
+.TwitterCard .EdgeButton, .TwitterCard .EdgeButton:visited,
+.RichEditor,
+.global-nav .search-input,
+.global-dm-nav.new.with-count .dm-new .count-inner, .global-nav .people .count .count-inner,
+.ProfileUserList .Avatar,
+.DirectMessage-message
+{
+    border-radius: 4px;
+}
+
+.ProfileAvatar {
+    background: #1b2836;
+    border: 5px solid #1b2836;
+    border-radius: 4px;
+    /*border: 0px;*/
+}
+
+html, body, #doc, #page-outer {
+    height: auto;
+}
+
+/*#timeline {
+    min-width: 590px;
+    width: 98.3%;
+    width: 80%;
+    float: none;
+}*/
+
+/*.dashboard {
+    width: 11px;
+}
+
+.tweet .card2 {
+    max-width: 400px;
+}*/
