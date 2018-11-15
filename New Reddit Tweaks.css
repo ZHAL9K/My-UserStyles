@@ -1,3 +1,4 @@
+@-moz-document domain("www.reddit.com") {
 /* Sidebar */
 .bpTLeo {
     display: block;
@@ -40,4 +41,5 @@
 /* Subreddit name & sub count */
 .dBgWbv, .gCONzn {
     color: rgb(129, 131, 132);
+}
 }

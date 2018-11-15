@@ -1,3 +1,4 @@
+@-moz-document domain("twitter.com") {
 /*
  Makes everything rounded rectangles, instead of circles and capsules
 */
@@ -52,3 +53,4 @@ html, body, #doc, #page-outer {
 .tweet .card2 {
     max-width: 400px;
 }*/
+}
