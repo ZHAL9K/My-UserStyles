@@ -1,56 +1,56 @@
 @-moz-document domain("twitter.com") {
-/*
- Makes everything rounded rectangles, instead of circles and capsules
-*/
-
-.ProfileAvatar-image,
-.ProfileListItem-avatar,
-.ProfileCardMini-avatarImage,
-.ProfileCard-avatarImage,
-.ProfileCard-avatarLink,
-.ProfileAvatarEditing,
-.ProfileAvatarEditing-button,
-.ProfileAvatarEditing-overlay,
-.DashboardProfileCard-avatarImage,
-.avatar,
-.Avatar,
-.DMAvatar,
-.nav .session .dropdown-toggle,
-.EdgeButton,
-.EdgeButton.EdgeButton--icon,
-.TwitterCard .EdgeButton, .TwitterCard .EdgeButton:visited,
-.RichEditor,
-.global-nav .search-input,
-.global-dm-nav.new.with-count .dm-new .count-inner, .global-nav .people .count .count-inner,
-.ProfileUserList .Avatar,
-.DirectMessage-message
-{
+  .r-sdzlij {
     border-radius: 4px;
-}
+  }
 
-.ProfileAvatar {
-    background: #1b2836;
-    border: 5px solid #1b2836;
-    border-radius: 4px;
-    /*border: 0px;*/
-}
+  div.r-1jgb5lz:nth-child(4) {
+    max-width: 800px !important;
+  }
 
-html, body, #doc, #page-outer {
-    height: auto;
-}
+  .r-1ljd8xs {
+    max-width: 800px !important;
+  }
 
-/*#timeline {
-    min-width: 590px;
-    width: 98.3%;
-    width: 80%;
-    float: none;
-}*/
+  .r-150rngu {
+    width: 1190px;
+  }
 
-/*.dashboard {
-    width: 11px;
-}
+  .r-1ye8kvj {
+    max-width: 800px;
+  }
 
-.tweet .card2 {
-    max-width: 400px;
-}*/
+  .r-rsyp9y {
+    width: 800px;
+  }
+
+  .r-xnswec {
+    max-width: 350px;
+  }
+
+  /* Worldwide trends, suggestions etc sidebar
+       .r-1uaug3w is used elsewhere too so need to limit it to children of .r-gbq138 */
+  .r-gbq138 > div.r-1uaug3w:nth-child(1n + 2) {
+    /*background-color: #ff0000;*/
+    display: none;
+  }
+
+  /* Did this originally to hide the Messages menu at bottom right but it also breaks the messages view itself
+    .r-173mn98 {
+      display: none;
+    }
+    */
+
+  div.r-1h0z5md:nth-child(2) {
+    margin-left: 0px;
+  }
+
+  /* Chat popup width */
+  .r-ouzzow {
+    width: 100%;
+  }
+
+  /* Chat bubble radius */
+  .r-1867qdf {
+    border-radius: 8px;
+  }
 }
